@@ -1,0 +1,35 @@
+body{
+    max-width: 375px;
+}
+#content_container{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    max-width: 20rem;
+}
+#txt_container{
+   padding: 1rem 0.5rem;
+}
+#txt_container h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#txt_container .order_note{
+    padding: 0 20px;  
+}
+#plan_box{
+    width: 280px;
+}
+#plan_box img{
+    padding-left: 10px;
+}
+#plan_box .plan_txt{
+    margin-right: 15px;
+}
+#plan_box a{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+#payment-box .btn-payment{
+    width: 280px;
+}

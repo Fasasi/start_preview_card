@@ -15,14 +15,15 @@ body{
 }
 #content_container{
     background-color: #ffffff;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    overflow: hidden;
     margin: 2rem auto;
     max-width: 45rem;
-    /*box-shadow: 0 3.2rem 6.4rem rgba(0, 75, 76, 0.2)*/
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 75, 76, 0.2);
 }
 .img_container .main_img{
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     width: 100%;
 }
 #txt_container{
