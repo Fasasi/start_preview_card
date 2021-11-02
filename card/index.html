@@ -7,36 +7,36 @@
     <script src="https://kit.fontawesome.com/04925f0a69.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" media="screen and (max-width: 1300px) and (min-width: 376px) " href="css/tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 375px)" href="css/mobile.css">
 
     <title>Summary Card</title>
 </head>
 <body>
     <div id="content_container">
-        <img src="img/illustration-hero.svg" alt="" class="main_img">
+        <div class="img_container">
+            <img src="img/illustration-hero.svg" alt="" class="main_img">
+        </div>
         <div id="txt_container">
-            <div class="section__A">
-                <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, 
-                    audiobooks, and podcasts on any device anywhere
-                    you like!
-                </p>
-            </div>
-            <div class="section_B">
-                <div class="play_plan">
-                    <img src="img/icon-music.svg" alt="music">
-                    <div class="plan_txt">
-                        <p class="plan">Annual Plan</p>
-                        <p class="plan_txt">$59.99/year</p>
-                    </div>
+            <h1 class="order_summary">Order Summary</h1>
+            <p class="order_note">You can now listen to millions of songs, 
+                audiobooks, and podcasts on any device anywhere
+                you like!
+            </p>
+            <div id="plan_box">
+                <img src="img/icon-music.svg" alt="music">
+                <div class="plan_txt">
+                    <h2 class="plan">Annual Plan</h2>
+                    <p class="plan_txt">$59.99/year</p>
                 </div>
-                <a href="#">Change</a>
+                <a href="#" class="btn-change">Change</a>
             </div>
-            <div class="section_C">
-                <button>Proceed to Payment</button>
-                <p>Cancel Order</p>
+            <div id="payment-box">
+                <a href="" class="btn-payment">Proceed to Payment</a>
             </div>
+            <div id="cancel">
+                <a class="cancel-order" href="">Cancel Order</a>
+            </div>
+                
             
         </div>
     </div>
