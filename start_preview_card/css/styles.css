@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    width: 1440px;
+    line-height: 1.3;
+    
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 80px;
+    
+}
+
+#box{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 190px;
+    width: 1000px;
+    
+}
+
+#box .pic{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 130px 0px;
+    width: 50%;
+    background-size: cover;
+    background: linear-gradient(0deg, hsla(277, 64%, 61%, 0.3), hsla(277, 64%, 61%, 0.7)), url(../img/image-header-desktop.jpg) no-repeat;
+  }
+
+
+#box #content{
+    border-radius: 5px;
+    width: 50%;
+    min-height: 100%;
+    background-color: hsl(244, 38%, 16%);
+    overflow: hidden;
+}
+
+#content .main_h{
+    color: hsl(0, 0%, 100%); 
+    margin-bottom: 30px;  
+    padding-top: 60px;
+}
+
+#content span{
+    color: hsl(277, 64%, 61%);
+}
+
+#content .main_p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 80px;
+    padding-right: 80px;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+#counter{
+    display: flex;
+    justify-content: left; 
+    margin-bottom: 65px;
+}
+
+#counter h1{
+    color: hsl(0, 0%, 100%, 0.9);
+}
+
+#counter p{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+#counter .count_b,
+#counter .count_c{
+    margin-left: 40px;
+}

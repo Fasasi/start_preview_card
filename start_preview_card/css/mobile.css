@@ -1,0 +1,76 @@
+body{
+    line-height: 1.6;
+    width: 375px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(233, 47%, 7%);
+    overflow-y: hidden;
+}
+
+#box{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    border-radius: 5px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+}
+
+#box .pic{
+    background: linear-gradient(0deg, hsla(277, 64%, 61%, 0.3), hsla(277, 64%, 61%, 0.7)), url(../img/image-header-mobile.jpg) no-repeat;
+    background-size: contain;
+    height: 233px;
+    width: 90%;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#box #content{
+    
+    width: 90%;
+    min-height: auto;
+    text-align: center;
+    background-color: hsl(244, 38%, 16%);
+}
+#content .main_h{
+    padding-right: 60px;
+    padding-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.2;
+}
+#content .main_p{
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    padding-right: 60px;
+    row-gap: 20px;
+    font-size: 8px;
+    margin-bottom: 20px;
+}
+
+#counter .count_b,
+#counter .count_c{
+    margin-right: 40px;
+}
